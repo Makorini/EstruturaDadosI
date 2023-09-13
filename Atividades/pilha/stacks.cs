@@ -34,7 +34,7 @@ namespace StackClass
             }
 
             int valor = stack[top];
-            top --;
+            top--;
             return valor;
         }
 
@@ -51,7 +51,7 @@ namespace StackClass
 
         public void printstack()
         {
-            if(top > 0)
+            if(top < 0)
             {
                 Console.WriteLine("Stack Underflow");
                 return;
